@@ -78,10 +78,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Premium bot services for Twitch, Discord, Roblox and Kick. Grow your community with one command." },
       { name: "author", content: "FreeBotting" },
       { property: "og:title", content: "FreeBotting — Creator & Community Services" },
-      { property: "og:description", content: "Premium bot services for Twitch, Discord, Roblox and Kick." },
+      { property: "og:description", content: "Premium bot services for Twitch, Discord, Roblox and Kick. Grow your community with one command." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "FreeBotting — Creator & Community Services" },
+      { name: "twitter:description", content: "Premium bot services for Twitch, Discord, Roblox and Kick. Grow your community with one command." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d44456a5-1b56-41af-b5d9-59c8f858a0f1/id-preview-c7e09914--a5e37728-1701-4823-ba6e-5866fcfde15a.lovable.app-1778354265288.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d44456a5-1b56-41af-b5d9-59c8f858a0f1/id-preview-c7e09914--a5e37728-1701-4823-ba6e-5866fcfde15a.lovable.app-1778354265288.png" },
     ],
     links: [
       {
