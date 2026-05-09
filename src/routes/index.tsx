@@ -72,7 +72,7 @@ function Index() {
             <div className="h-2.5 w-2.5 rounded-full bg-muted" />
             <div className="h-2.5 w-2.5 rounded-full bg-muted" />
             <div className="h-2.5 w-2.5 rounded-full bg-muted" />
-            <span className="ml-3 text-xs text-muted-foreground">freebotting.app/dashboard</span>
+            <span className="ml-3 text-xs text-muted-foreground">Dashboard preview</span>
           </div>
           <div className="grid gap-4 p-6 md:grid-cols-3">
             {[

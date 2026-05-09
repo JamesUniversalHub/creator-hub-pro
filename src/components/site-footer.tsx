@@ -18,15 +18,12 @@ export function SiteFooter() {
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li><Link to="/services" className="hover:text-foreground">Services</Link></li>
               <li><Link to="/pricing" className="hover:text-foreground">Pricing</Link></li>
-              <li><Link to="/dashboard" className="hover:text-foreground">Dashboard</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="text-sm font-semibold">Support</h4>
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li><Link to="/faq" className="hover:text-foreground">FAQ</Link></li>
-              <li><Link to="/reviews" className="hover:text-foreground">Reviews</Link></li>
-              <li><Link to="/contact" className="hover:text-foreground">Contact</Link></li>
             </ul>
           </div>
           <div>
