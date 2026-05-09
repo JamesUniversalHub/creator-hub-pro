@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { z } from "zod";
 import { Card } from "@/components/ui/card";
@@ -98,7 +98,7 @@ function CheckoutPage() {
             </a>
           </Button>
           <p className="mt-3 text-center text-xs text-muted-foreground">
-            Need help? <Link to="/contact" className="underline hover:text-foreground">Contact support</Link>
+            Need help? Join our Discord for 24/7 support.
           </p>
         </Card>
       </div>
